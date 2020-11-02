@@ -3,7 +3,7 @@ import re
 
 regex = list()
 dir_path = os.path.dirname(os.path.realpath(__file__))
-f = open(dir_path +  '/../../regex.txt')
+f = open(dir_path +  '/../regex.txt')
 lines = f.readlines()
 for line in lines:
     if (len(line) > 10):
